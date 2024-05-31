@@ -9,11 +9,12 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="374dp"
+        android:layout_width="340dp"
         android:layout_height="345dp"
+        android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.621"
@@ -35,8 +36,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="365dp"
+        android:layout_width="330dp"
         android:layout_height="68dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
         android:fontFamily="@font/inter_semibold"
         android:text="Next"
         android:textColorLink="#FFFFFF"
@@ -45,9 +48,10 @@
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintVertical_bias="0.922" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -91,32 +95,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.405" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:contextClickable="true"
+        android:orientation="horizontal"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
-        app:srcCompat="@drawable/medical_personnel_icon" />
+        app:layout_constraintVertical_bias="0.628">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:contextClickable="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
-        app:srcCompat="@drawable/patient_icon" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="141dp"
+            android:layout_height="155dp"
+            android:clickable="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/todo"
+            android:contextClickable="true"
+            app:srcCompat="@drawable/medical_personnel_icon" />
 
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="141dp"
+            android:layout_height="155dp"
+            android:contentDescription="@string/todo"
+            android:clickable="true"
+            android:contextClickable="false"
+            app:srcCompat="@drawable/patient_icon" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
