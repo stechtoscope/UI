@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="360dp"
+        android:layout_height="570dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+        app:srcCompat="@drawable/custom_button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:text="Syarat dan Ketentuan"
+        android:textColor="#31507B"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="365dp"
+        android:layout_height="68dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Kembali"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:backgroundTint="#31507B"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="560dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="       Dengan mengunduh, memasang, dan/atau menggunakan Aplikasi STECHTOSCOPE, Anda menyetujui bahwa Anda telah membaca, memahami, dan menyetujui Syarat dan Ketentuan (“Syarat dan Ketentuan”) ini. Syarat dan Ketentuan ini menandakan perjanjian hukum antara Anda dan STECHTOSCOPE dan berlaku untuk kunjungan Anda ke dan penggunaan Anda atas Aplikasi dan Layanan kami (sesuai yang didefinisikan di bawah ini). Namun, harap diperhatikan bahwa syarat, batasan, dan kebijakan privasi tambahan dapat berlaku.\n       Apabila Anda tidak setuju terhadap salah satu, sebagian, atau seluruh isi yang tertuang dalam Ketentuan Penggunaan dan Kebijakan Privasi ini, silakan untuk menghapus Aplikasi dalam perangkat elektronik Anda dan/atau tidak mengakses Aplikasi dan/atau tidak menggunakan Layanan Kami. Mohon untuk dapat diperhatikan pula bahwa Ketentuan Penggunaan dan Kebijakan Privasi dapat diperbarui dari waktu ke waktu.\n\n1. KETENTUAN UMUM
+\n\n1.1. Semua referensi di bawah Syarat dan Ketentuan ini untuk “STECHTOSCOPE” atau “kami” merujuk ke “STECHTOSCOPE” atau pihak pembuat, dan semua referensi untuk “Pelanggan” atau “Anda” merujuk ke pengguna Aplikasi dan/atau Layanan yang berwenang.
+\n\n1.2. Aplikasi (versi Android) yang dikelola oleh Kami sebagaimana diperbarui dari waktu ke waktu.
+\n\n1.3. Aplikasi berfungsi sebagai sarana untuk menghubungkan Anda dengan pihak penyedia layanan kepada Anda seperti (namun tidak terbatas pada) fasilitas penyimpanan suara, perekaman suara dan berbagi suara (“Penyedia Layanan”).
+\n\n1.4. Koneksi internet diperlukan untuk dapat menggunakan Layanan dan biaya terkait penggunaan koneksi internet tersebut ditanggung sepenuhnya oleh Anda.
+\n\n1.5. Jenis layanan yang dapat digunakan melalui Aplikasi adalah:
+\n(i). Layanan Perekaman Suara
+\n(ii). Layanan lain yang dapat kami tambahkan dari waktu ke waktu, (masing-masing disebut “Layanan” dan secara kolektif disebut “Layanan-Layanan”).
+\n\n1.6. Kami dapat menggunakan jasa pihak ketiga terkait penyediaan layanan pembayaran. Apabila terjadi kegagalan pada sistem pembayaran, Kami akan berupaya semaksimal mungkin dalam membantu menyelesaikan masalah yang mungkin timbul. Penyedia jasa perbankan/pembayaran yang dipilih oleh Anda dapat mengenakan biaya tambahan kepada Anda atas layanan yang diberikan.
+\n\n1.7. Aplikasi memungkinkan Anda untuk mengirimkan permintaan atas suatu Layanan kepada Penyedia Layanan. Penyedia Layanan memiliki kebijakan sendiri dan kewenangan penuh untuk menerima atau menolak setiap permintaan Anda atas Layanan. Jika Penyedia Layanan menerima permintaan Anda.
+\n\n1.8. Setiap fitur atau fasilitas dalam Aplikasi dapat diperbarui atau diubah sesuai dengan kebutuhan dan perkembangan Aplikasi.
+\n\n1.9. Anda dapat memberikan informasi mengenai data pribadi dan riwayat kesehatan, dan Kami akan menyimpan serta menampilkannya dalam akun Anda. Kerahasiaan data Anda terjamin dan akan digunakan oleh Kami dan/atau Penyedia Layanan untuk keperluan interaksi dengan dokter dan/atau keperluan medis lainnya yang dilakukan di dalam Aplikasi yang telah Anda setujui sesuai dengan ketentuan perundang-undangan yang berlaku dan Kebijakan Privasi.
+\n\n1.10. Dengan menggunakan Aplikasi, Anda memahami dan menyetujui bahwa rekaman suara organ anda melalui fitur perekaman akan tersimpan secara otomatis dan diarsipkan untuk keperluan legal dan peningkatan kualitas layanan. Serta untuk kebutuhan pendidikan atau pembelajaran di masa depan.
+\n\n1.11. Kami dapat menghentikan atau membatasi proses registrasi atau penggunaan Aplikas oleh Anda jika ditemukan pelanggaran dari Ketentuan Penggunaan ini atau peraturan perundang-undangan yang berlaku.
+\n\n2. AKSES KE APLIKASI DAN LAYANAN
+\n\n       STECHTOSCOPE memberikan izin terbatas yang dapat dicabut kembali kepada anda untuk mengakses Layanan dengan tunduk pada syarat dan ketentuan Syarat Layanan ini. Semua Konten eksklusif, merek dagang, merek layanan, nama merek, logo dan kekayaan intelektual lainnya (“Kekayaan Intelektual”) yang ditampilkan merupakan milik STECHTOSCOPE dan bila berlaku, pemilik pihak ketiga yang diidentifikasi. Tidak ada hak atau izin yang diberikan secara langsung atau tidak langsung kepada pihak mana pun yang mengakses Aplikasi untuk menggunakan atau memperbanyak Kekayaan Intelektual, dan tidak ada pihak yang mengakses Aplikasi yang dapat mengklaim hak, kepemilikan atau kepentingan apapun di dalamnya. Dengan menggunakan atau mengakses Layanan anda setuju untuk mematuhi hak cipta, merek dagang, merek layanan, dan semua undang-undang yang berlaku lainnya yang melindungi Layanan, Aplikasi dan Kontennya.
+\n\n       Anda setuju untuk tidak menyalin, mendistribusikan, mempublikasikan ulang, mengirimkan, menampilkan secara terbuka, melakukan secara terbuka, mengubah, menyesuaikan, menyewa, menjual, atau membuat karya turunan dari bagian apapun dari Layanan, Situs atau Kontennya. Anda juga tidak diperbolehkan, tanpa persetujuan tertulis sebelumnya dari kami, menduplikasi atau membingkai bagian apapun atau seluruh konten Situs ini di server lain mana pun atau sebagai bagian dari situs web lain apapun. Selain itu, anda setuju bahwa anda tidak akan menggunakan robot, spider atau perangkat otomatis maupun proses manual lain apapun untuk memantau atau menyalin Konten kami, tanpa persetujuan tertulis sebelumnya dari kami.
+\n\n2.1. Anda setuju untuk:
+\n(i). Mengakses Aplikasi dan/atau menggunakan Layanan hanya untuk tujuan yang sah dan dengan cara yang sah, setiap saat, dan juga setuju untuk melakukan aktivitas apapun terkait Layanan atau Aplikasi dengan itikad baik;
+\n(ii). Mematuhi semua dan panduan, pemberitahuan, peraturan operasional, kebijakan, dan instruksi apa pun terkait penggunaan Layanan dan/atau akses ke Aplikasi, sekaligus amendemen apa pun yang diterbitkan oleh kami dari waktu ke waktu;
+\n(iii). Menjamin agar informasi atau data apa pun yang Anda publikasikan atau tampilkan di Aplikasi terkait Layanan bersifat akurat.
+\n\n2.2. Akses ke area-area Aplikasi yang terlindungi oleh kata sandi dan penggunaan Layanan terbatas hanya untuk Pelanggan dengan akun STECHTOSCOPE. Anda tidak dapat memperoleh atau berusaha memperoleh akses yang tidak sah ke bagian-bagian Aplikasi dan/atau Layanan ini maupun ke informasi lain yang terlindungi di Aplikasi, melalui cara apa pun yang secara sengaja tidak kami sediakan untuk penggunaan Anda.
+\n\n2.3. Dengan mengakses Aplikasi dan/atau menggunakan Layanan, Anda menyatakan dan menjamin bahwa Anda adalah individu yang secara hukum berhak untuk memasuki perjanjian yang mengikat di bawah hukum Republik Indonesia, dalam Syarat dan Ketentuan berikut ini, dan bahwa Anda berusia minimal 21 tahun atau sudah menikah dan tidak sedang di bawah  perwalian. Jika Anda berusia di bawah 21 tahun dan tidak menikah, Anda menyatakan dan menjamin bahwa Anda telah memperoleh izin dari orang tua atau wali hukum Anda, kecuali Anda menyatakan sebaliknya. Dengan memberikan persetujuan, orang tua atau wali hukum Anda setuju untuk bertanggung jawab atas:
+\n(i). semua tindakan Anda terkait akses ke dan penggunaan Aplikasi dan/atau Layanan;
+\n(ii). biaya apa pun terkait penggunaan Anda atas Layanan apa pun; dan
+\n(iii). kepatuhan Anda terhadap Syarat dan Ketentuan ini. Jika Anda tidak memperoleh izin dari orang tua atau wali hukum, Anda harus berhenti mengakses Aplikasi dan/atau menggunakan Layanan.
+\n\n2.4. Anda menyatakan akan menggunakan Aplikasi ini hanya untuk tujuan yang dimaksudkan, yaitu untuk memperoleh Layanan.
+\n\n2.5. Anda akan merahasiakan dan tidak akan menyalahgunakan informasi yang Anda terima dari penggunaan Aplikasi. Anda akan memperlakukan Penyedia Layanan dengan hormat dan tidak akan melakukan perilaku atau aktivitas tidak sah, mengancam, atau melecehkan saat menggunakan Layanan.
+\n\n2.6. Anda memahami dan setuju bahwa penggunaan Anda atas Aplikasi juga harus mematuhi Kebijakan Privasi kami, seperti yang mungkin diamandemen dari waktu ke waktu.
+\n\n2.7. Dengan memberikan informasi kepada kami, Anda menyatakan bahwa Anda berhak untuk memberikan informasi kepada kami untuk digunakan dan dibagikan dengan Penyedia Layanan dan bahwa informasi tersebut akurat, terkini, dan lengkap.
+\n\n2.8. Terkait penggunaan Anda atas Aplikasi atau Layanan, atau selama interaksi Anda dengan STECHTOSCOPE, Pelanggan lain, Penyedia Layanan, atau pihak ketiga lain apa pun melalui Aplikasi, Anda dilarang:
+\n(i).  Melanggar Syarat dan Ketentuan, Kebijakan Privasi, atau kebijakan lain apa pun yang ada di Aplikasi ini;
+\n(ii). Melanggar hukum, peraturan, atau hak pihak ketiga mana pun;
+\n(iii). Melanggar hak cipta, paten, merek dagang, rahasia dagang, hak kekayaan intelektual apa pun, hak publisitas atau privasi dari STECHTOSCOPEi atau pihak ketiga mana pun;
+\n(iv). Melakukan tindakan yang mencemarkan, memfitnah, mengancam, atau melecehkan;
+\n(v).  Memberikan informasi yang salah, palsu, tidak akurat, atau menyesatkan;
+\n(vi). Menolak secara tidak wajar untuk bekerja sama dalam penyelidikan yang dilakukan oleh STECHTOSCOPE atau memberikan konfirmasi mengenai identitas Anda atau informasi lain yang diminta oleh STECHTOSCOPE;
+\n(vii). Mengontrol akun pelanggan yang terhubung dengan cara apapun ke akun lain yang telah atau diduga melakukan aktivitas apa pun yang dilarang di bawah Syarat dan Ketentuan ini;
+\n(viii).  Menggunakan Aplikasi sebagai sarana untuk menyebarkan iklan dan materi lain apa pun yang tidak diinginkan kepada pihak ketiga, mengirimkan surat berantai atau skema piramida, atau memublikasikan konten yang sama lebih dari sekali (spam);
+\n(ix). Menggunakan Aplikasi, akun Anda, atau Layanan dengan cara yang mengakibatkan atau dapat mengakibatkan keluhan, perselisihan, tuntutan, denda, penalti, dan tanggung jawab lain kepada STECHTOSCOPE, Pelanggan lain, Penyedia Layanan, atau pihak ketiga;
+\n(x).  Mengambil tindakan apa pun yang memaksakan beban berat yang tidak wajar atau tidak proporsional ke infrastruktur kami atau tindakan lain yang dapat mengakibatkan risiko atau masalah material untuk infrastruktur kami;
+\n(xi).  Menyebarkan virus, trojan horse, worm, atau teknologi pemrograman komputer lain yang dapat membahayakan Aplikasi, kepentingan, atau properti apa pun dari Pelanggan lain, Penyedia Layanan, dan pihak ketiga mana pun, termasuk pengguna lain di Aplikasi dan Layanan;
+\n(xii). Berusaha memperoleh akses yang tidak sah ke atau mengganggu atau menghalangi sistem atau jaringan komputer lain yang terhubung ke Aplikasi atau Layanan;
+\n(xiii). Menyebarkan atau mempromosikan materi tidak senonoh, pornografi, atau menyinggung atau materi lain yang bertentangan dengan kebijakan publik dan/atau hukum atau peraturan apapun yang berlaku;
+\n(xiv). Akibat tindakan atau kelalaian Anda, melakukan apa pun yang dapat menyebabkan kami kehilangan layanan apa pun dari penyedia layanan internet, pemroses pembayaran, atau penyedia       kami lainnya.
+\n(xv). Mengganggu penggunaan dan kenyamanan pengguna lain atas Aplikasi atau Layanan; atau
+\n(xvi). Memfasilitasi aktivitas ilegal, tidak sah, atau penipuan berbentuk apa pun.
+\n\n2.9. Apabila kami memiliki alasan untuk menduga bahwa Anda terlibat dalam aktivitas apa pun yang dilarang, sesuai yang ditetapkan dalam klausa 2.8 di atas, kami dapat, tanpa tanggung jawab kepada Anda, mengambil tindakan berikut:
+\n(i). Melaporkan aktivitas mencurigakan atau ilegal apa pun ke otoritas yang relevan;
+\n(ii). Membatalkan atau menolak transaksi apa pun;
+\n(iii). Menangguhkan atau menutup akun Pelanggan Anda;
+\n(iv). Menerapkan, sesuai kebijaksanaan tunggal kami, prosedur pencegahan dan deteksi serta menolak pelaksanaan transaksi apabila ada dasar untuk menduga bahwa akun Pelanggan digunakan atau mungkin digunakan untuk tujuan yang ilegal, tidak sah, atau penipuan; atau
+\n(v). Mengambil langkah lebih lanjut sesuai yang dianggap perlu oleh STECTOSCOPE, sesuai kebijaksanaan tunggal kami, termasuk mengambil langkah hukum terhadap Anda.
+\n\n2.10. Apabila kami menutup akun Pelanggan Anda, kami akan memberikan pemberitahuan penutupan secara tertulis segera setelah dapat dilakukan.
+\n\n2.11. Apabila terjadi penangguhan akun Pelanggan Anda, kami akan menginformasikan penangguhan kepada Anda, ketika memungkinkan, dan memberikan Anda kesempatan untuk meminta pemulihan akses jika dan saat sesuai. Pemulihan akses apapun merupakan kebijaksanaan STECHTOSCOPE dan harus mematuhi kebijakan dan prosedur STECHTOSCOPE sekaligus hukum yang berlaku.
+\n\n3. PENGGUNAAN UMUM LAYANAN
+\n\n3.1. Artikel Kesehatan
+Konten artikel-artikel kesehatan yang ditawarkan di Aplikasi hanya bersifat umum dan digunakan untuk mengedukasi konsumen pelayanan kesehatan dan medis. Konten tidak digunakan sebagai pengganti untuk saran, diagnosis, atau perawatan medis. Hanya digunakan untuk membantu pendengaran dan perekaman suara.
+\n\n3.2. Fitur Konsultasi dengan Dokter
+\n(i) Fitur ini memfasilitasi Anda untuk berinteraksi dengan Penyedia Layanan melalui konsul yang dapat diakses melalui Aplikasi.
+\n(ii) Penyedia Layanan berhak untuk membalas atau tidak membalas pesan Anda, sesuai dengan ketentuan waktu operasional yang ditetapkan oleh Penyedia Layanan.
+\n(iii) Ketentuan pelaksanaan Layanan diatur sesuai dengan syarat dan ketentuan yang ditentukan oleh Penyedia Layanan.
+\n(iv) Anda mengetahui dan menyetujui bahwa fitur ini tidak menggantikan pemeriksaan dan pengobatan dengan dokter pada umumnya atau tatap muka secara langsung.
+\n(v) Layanan Kami tidak bersifat memaksa atau pun mengikat. Keputusan untuk menggunakan Layanan ini sepenuhnya berada di tangan Anda. Aplikasi hanya merupakan fasilitator interaksi antara anda dan Penyedia Layanan.
+\n(vi) Anda memahami bahwa Anda perlu memberikan informasi data medis dan menjelaskan gejala atau keluhan fisik yang Anda alami secara lengkap, jelas dan akurat ketika melakukan percakapan dengan Penyedia Layanan.
+\n\n3.3. Pendaftaran dan Informasi Akun
+\n(i). Proses pendaftaran mewajibkan Anda untuk memberikan informasi pribadi yang akurat, terkini, dan lengkap, yang mungkin kami minta dari Anda dari waktu ke waktu, termasuk tetapi tidak terbatas pada nama, alamat, nomor telepon, tanggal lahir, dan alamat email kepada kami. Apabila terdapat perubahan apa pun dalam informasi Anda, harap menghubungi STECHTOSOPE secepat mungkin.
+\n(ii). Kami dapat meminta informasi atau dokumentasi tambahan kapan pun untuk memverifikasi identitas, umur, dan/atau memverifikasi detail bank atau debit, kredit, fasilitas prabayar Anda,   seperti kartu yang didaftarkan kepada kami. Anda menyetujui bahwa Anda akan memberikan informasi dan/atau dokumentasi dengan cepat kepada kami sesuai permintaan. Jika Anda tidak memberikan informasi dan/atau dokumentasi dengan cepat, kami dapat, tanpa tanggung jawab kepada Anda, membatasi penggunaan Anda atas Layanan atau menangguhkan atau menutup         akun Anda.
+\n(iii). Hanya Anda yang dapat menggunakan akun Anda sendiri, dan Anda berusaha untuk tidak memberikan wewenang kepada pihak lain untuk menggunakan identitas atau akun Anda. Anda tidak boleh mengalihkan atau memindahkan akun Anda ke pihak lain. Anda harus menjaga agar kata sandi akun dan identifikasi apa pun yang kami berikan kepada Anda tetap aman dan  rahasia. Apabila kata sandi Anda diungkapkan ke pihak ketiga mana pun dan pengungkapan tersebut mengakibatkan penggunaan akun atau identitas secara ilegal, perintah yang diberikan dari penggunaan secara ilegal atau tidak sah tersebut akan tetap dianggap sebagai perintah yang valid, kecuali Anda dapat menunjukkan bahwa pengungkapan tersebut tidak disebabkan oleh tindakan, kecerobohan, kelalaian, dan/atau kelengahan Anda.
+\n(iv). Semua data pribadi yang diberikan kepada STECHTOSCOPE akan dikumpulkan, ditangani, disimpan, dan diproses sesuai dengan Kebijakan Privasi STECHTOSCOPE. Dengan menerima Syarat dan Ketentuan ini, Anda juga setuju untuk memberikan izin sesuai yang dibutuhkan di bawah Kebijakan Privasi kami.
+\n(v).  Anda bertanggung jawab sepenuhnya untuk menjaga agar nama pengguna dan kata sandi Anda di Aplikasi dan Layanan tetap aman. Anda dianjurkan untuk mengubah kata sandi secara rutin, dan kami tidak akan bertanggung jawab atas pengungkapan atau penggunaan tidak sah apa pun dari nama pengguna atau kata sandi Anda, yang disebabkan oleh tindakan,  kecerobohan, kelalaian, dan/atau kelengahan Anda. Jika nama pengguna dan kata sandi Anda telah diretas, Anda harus segera menginformasikan kepada STECHTOSCOPE secara tertulis.
+\n(vi). Penggunaan nama pengguna atau kata sandi apa pun di Aplikasi akan dianggap sebagai penggunaan Layanan. Informasi, data, atau komunikasi apa pun yang dipublikasikan, dikirimkan,  atau diterbitkan selama periode Anda masuk dengan nama pengguna dan kata sandi (baik secara sah maupun tidak sah) akan dianggap dipublikasikan, dikirimkan, atau diterbitkan oleh  Anda. Anda akan bertanggung jawab sepenuhnya atas pengiriman, pemberitahuan, atau komunikasi apa pun dan setuju untuk mengganti rugi dan membebaskan STECHTOSCOPE dari kerugian, kerusakan, pengeluaran, dan/atau tanggung jawab atas tindakan yang disebabkan oleh penggunaan nama pengguna dan kata sandi Anda di Aplikasi, kecuali Anda dapat menunjukkan bahwa penggunaan tersebut tidak disebabkan oleh tindakan, kecerobohan, kelalaian, dan/atau kelengahan Anda.
+\n\n3.4. Pembayaran
+\n(i). Pengunduhan dan/atau penggunaan Aplikasi bersifat bebas biaya. Kami dapat membebankan biaya untuk akses ke fitur-fitur tertentu yang ditawarkan melalui Aplikasi. Namun, koneksi  internet dibutuhkan untuk mengakses Aplikasi dan/atau menggunakan Layanan, dan biaya terkait apa pun (seperti pengeluaran kuota) yang disebabkan oleh akses Anda ke Aplikasi dan/atau penggunaan Layanan merupakan tanggung jawab eksklusif Anda dan ditanggung sepenuhnya oleh Anda.
+\n(ii). STECHTOSCOPE dan penyedia pembayaran pihak ketiga kami akan memiliki akses ke preferensi metode pembayaran dan detail alamat penagihan Anda saat Anda melakukan pembayaran. Kami  tidak bertanggung jawab atas pelanggaran privasi atau keamanan apa pun yang timbul akibat atau terkait proses pembayaran apapun oleh penyedia pihak ketiga. STECHTOSCOPE apat  menyimpan detail kartu kredit atau metode pembayaran online lainnya yang mungkin Anda gunakan.
+\n\n3.5. Ketersediaan Layanan
+STECHTOSCOPE dapat, dari waktu ke waktu, dan tanpa memberikan alasan atau pemberitahuan apapun sebelumnya kepada Anda, meningkatkan, mengubah, menangguhkan, atau menghentikan ketentuan dari, atau menghapus, baik sebagian maupun keseluruhan, Aplikasi atau Layanan apa pun dan tidak bertanggung jawab apabila peningkatan, perubahan, penangguhan, atau  penghapusan apapun mencegah Anda mengakses Aplikasi atau bagian Layanan mana pun.
+\n\n4. HAK KEKAYAAN INTELEKTUAL
+\n\n4.1. Hak kekayaan intelektual dalam dan terhadap Aplikasi dan materi STECHTOSCOPE dimiliki, atau dikontrol oleh kami, atau Penyedia Layanan kami. Kami berhak untuk menggunakan hak kekayaan intelektual kami sejauh yang diizinkan oleh hukum.
+\n\n4.2. Bagian atau bagian-bagian dari Aplikasi atau materi STECHTOSCOPE yang tidak diperkenankan untuk direproduksi, direkayasa kembali (reverse engineering), dipisahkan, diubah, didistribusikan, dipublikasikan ulang, ditampilkan, disiarkan, dipranala (hyperlink), disalin (mirror), di-frame (framing), dipindahkan, atau dikirimkan dengan cara atau metode apa pun atau disimpan dalam sistem pemulihan informasi atau dipasang di server, sistem, atau peralatan apa pun tanpa izin tertulis dari kami sebelumnya dari pemilik hak cipta yang relevan. Izin hanya akan diberikan kepada Anda untuk mengunduh, mencetak, atau menggunakan materi STECHTOSCOPE untuk penggunaan pribadi dan nonkomersial, dengan catatan Anda tidak mengubah materi STECHTOSCOPE dan bahwa kami atau pemilik hak cipta yang relevan tetap memegang semua hak cipta dan hak kekayaan intelektual lain yang terdapat dalam materi STECHTOSCOPE.
+\n\n4.3. Bagian mana pun dalam Aplikasi dan Syarat dan Ketentuan ini tidak akan dianggap sebagai memberikan, berdasarkan implikasinya maupun tidak, lisensi atau hak apa pun untuk menggunakan (termasuk, sebagai meta tag atau ‘hot’ link ke situs web lain apa pun) merek dagang apa pun yang ditampilkan di Aplikasi STECHTOSCOPE, tanpa izin tertulis dari kami.
+\n\n4.4. Anda memberikan kami lisensi non eksklusif untuk menggunakan materi atau informasi yang Anda kirimkan di Aplikasi dan/atau berikan kepada kami, termasuk tetapi tidak terbatas pada gambar, foto, pertanyaan, ulasan, komentar, dan saran. Saat mempublikasikan komentar atau ulasan di Aplikasi, Anda juga memberikan kami hak untuk menggunakan nama yang dikirimkan atau nama pengguna Anda sehubungan dengan ulasan, komentar, dan konten lain. Anda tidak diperkenankan menggunakan alamat email palsu, berpura-pura menjadi orang lain selain diri sendiri, atau menyesatkan kami atau pihak ketiga mengenai asal-usul kiriman apa pun yang Anda berikan. Kami dapat memublikasikan, menghapus, atau mengedit kiriman Anda sesuai kebijaksanaan tunggal kami.
+\n\n5. TANPA JAMINAN
+\n\n5.1. Kami tidak memberikan pernyataan, jaminan, atau garansi atas keandalan, ketepatan waktu, kualitas, kesesuaian, ketersediaan, keakuratan, atau kelengkapan Layanan dan/atau Aplikasi,  termasuk tetapi tidak terbatas untuk, Layanan yang diperoleh oleh atau dari Penyedia Layanan melalui penggunaan Aplikasi.
+\n\n5.2. Sejauh yang diizinkan oleh hukum yang berlaku, kami tidak memberikan pernyataan atau menjamin bahwa:
+\n(i). Penggunaan Layanan dan/atau Aplikasi akan aman, tepat waktu, tidak terganggu, atau bebas dari kesalahan, atau beroperasi dengan baik dengan perangkat keras, perangkat lunak, sistem, atau data apa pun;
+\n(ii). Layanan akan memenuhi persyaratan atau harapan Anda;
+\n(iii). Data apa pun yang disimpan bersifat akurat atau andal;
+\n(iv). Kualitas layanan, informasi, atau materi lain apa pun yang Anda peroleh melalui Aplikasi akan memenuhi persyaratan atau harapan Anda;
+\n(v). Kesalahan atau kecacatan di Aplikasi akan diperbaiki; atau
+\n(vi). Aplikasi atau server yang menyusun bebas dari virus atau komponen berbahaya lainnya.
+\n\n5.3. Layanan-layanan diberikan kepada Anda sebagaimana adanya. Sejauh yang diizinkan oleh hukum yang berlaku, semua ketentuan, pernyataan, dan jaminan, baik tersirat maupun tersurat, sah atau tidak, termasuk tetapi tidak terbatas pada, jaminan pemberian layanan tersirat, keselarasan untuk tujuan khusus, atau ketiadaan pelanggaran atas hak pihak ketiga, dengan ini dikecualikan dan disangkal hingga batas tertinggi dan maksimal. Anda menyatakan dan menyetujui bahwa seluruh risiko yang timbul akibat penggunaan Anda atas Aplikasi dan Layanan tetap dan mutlak merupakan tanggung jawab Anda, dan Anda tidak akan meminta jaminan apa pun kepada STECHTOSCOPE.
+\n\n6. PENGECUALIAN TANGGUNG JAWAB
+\n\n6.1. Kami tidak bertanggung jawab atas efek simpang, cedera, kematian, kerusakan, atau kerugian apa pun yang dialami oleh Anda akibat praktik Penyedia Layanan. Kami juga tidak bertanggung jawab atas pelanggaran atau tindakan kriminal apa pun yang dilakukan oleh Penyedia Layanan selama melaksanakan Layanan.
+\n\n6.2. Kami mengambil langkah-langkah teknis dan keamanan yang sesuai dan wajar untuk menjaga agar Aplikasi tetap aman dan bebas dari virus dan kesalahan. Namun kami tidak dapat menjamin keamanan basis data kami maupun menjamin bahwa informasi yang Anda berikan tidak akan dihadang saat dikirimkan kepada kami. Kami akan menginformasikan kepada Anda secara tertulis apabila terdapat pelanggaran keamanan data yang melibatkan informasi pribadi Anda.
+\n\n6.3. Aplikasi dapat mengalami pembatasan, penundaan, dan masalah lain terkait penggunaan internet dan komunikasi elektronik, termasuk kecacatan perangkat yang digunakan oleh Anda atau Penyedia Layanan, tidak terhubung, di luar jangkauan, tidak aktif, atau tidak berfungsi. Kami tidak bertanggung jawab atas penundaan, kegagalan pengiriman, kerusakan, atau kerugian apa pun akibat masalah-masalah tersebut.
+\n\n6.4. STECHTOSCOPE dan/atau pemberi lisensi, dan masing-masing anggota, pejabat, direktur, komisaris, karyawan, pengacara, dan afiliasi nya (“Penerima Ganti Rugi”) tidak akan bertanggung jawab kepada Anda atas kerugian, biaya, pengeluaran (termasuk biaya dan pengeluaran hukum), kerusakan, penalti, atau jumlah pembayaran apa pun atau bagaimana pun yang disebabkan (apa pun bentuk tindakannya), secara langsung atau tidak langsung, terkait:
+\n(i). Akses, penggunaan, dan/atau ketidakmampuan apa pun untuk menggunakan Aplikasi atau Layanan;
+\n(ii). Ketergantungan terhadap data atau informasi apa pun yang tersedia melalui Aplikasi dan/atau Layanan;
+\n(iii). Kegagalan, kesalahan, kelalaian, gangguan, penundaan sistem, server, atau koneksi apa pun dalam pengiriman, virus komputer atau kode, program agen atau macros yang berbahaya, menghancurkan, atau merusak lainnya; dan
+\n(iv). Penggunaan apa pun atas atau akses ke Aplikasi; bahkan jika kami, pejabat, agen, atau karyawan kami mungkin sudah disarankan atau mengantisipasi kemungkinan yang sama.
+\n\n7. GANTI RUGI
+\n\n7.1. Anda setuju untuk melindungi, memberikan ganti rugi, dan membebaskan kami dan pihak mana pun yang menerima ganti rugi dari dan terhadap semua dan tuntutan, biaya, kerusakan, kerugian, tanggung jawab, dan pengeluaran (termasuk biaya pengacara) apa pun yang timbul akibat atau terkait:
+\n(i). Penggunaan Anda atas Layanan dan/atau Aplikasi, transaksi Anda dengan Penyedia Layanan, penyedia pihak ketiga;
+\n(ii). Pelanggaran Anda atas ketentuan apa pun dalam Syarat dan Ketentuan ini atau hukum atau peraturan apa pun yang berlaku, baik yang dirujuk di sini maupun tidak;
+\n(iii). Pelanggaran Anda atas hak pihak ketiga apa pun, termasuk Penyedia Layanan yang menyediakan Layanan melalui Aplikasi; atau
+\n(iv). Penggunaan atau penyalahgunaan Anda atas Aplikasi.
+\n\n7.2. Kewajiban perlindungan dan ganti rugi ini akan tetap berlaku setelah Syarat dan Ketentuan serta penggunaan Anda atas Aplikasi dan/atau Layanan berakhir.
+\n\n8. PENUTUP
+\n\n8.1. Anda tidak berkewajiban untuk menggunakan Aplikasi dan/atau Layanan dan dapat memilih untuk berhenti menggunakannya kapan pun dengan membatalkan akun Anda dan berhenti mengakses Aplikasi, sehingga menonaktifkan penggunaan Anda atas Layanan.
+\n\n8.2. Anda memahami bahwa setelah akun Anda dihapus maka akun Anda (termasuk seluruh riwayat transaksi, catatan medis, dan seluruh layanan di dalamnya) akan terhapus selamanya dan tidak dapat dipulihkan kembali karena alasan apa pun.
+\n\n8.3. Ketentuan Penggunaan ini diatur dan ditafsirkan serta dilaksanakan berdasarkan hukum yang berlaku di Negara Republik Indonesia dan Anda dengan tegas menyetujui bahwa bahwa ketentuan Pasal 1266 Kitab Undang-Undang Hukum Perdata dan ketentuan lainnya yang mewajibkan adanya pengesahan atau persetujuan pengadilan untuk dapat mengakhiri Ketentuan Penggunaan tidak berlaku terhadap Ketentuan Penggunaan ini.
+\n\n8.4. Segala sengketa yang berkaitan dengan Ketentuan Penggunaan ini, diselesaikan secara musyawarah untuk mufakat atau melalui Badan Arbitrase Nasional Indonesia (BANI), sesuai dengan prosedur yang berlaku di BANI. Apabila kedua belah pihak tidak sepakat untuk menyelesaikannya sengketa di BANI, maka sengketa akan diselesaikan melalui Pengadilan Negeri Surabaya.
+"
+                android:textAlignment="textStart"
+                android:justificationMode="inter_word"
+                android:textColor="#505050"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.254" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
